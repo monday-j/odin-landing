@@ -70,3 +70,33 @@ nav ul li {
     max-width: 250px;
     max-height: 250px;
 }
+
+/* layout styles for quote */
+
+.quote-section {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+/* layout styles for call to action banner */
+
+/* layout styles for footer */
+
+.footer-section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-section p {
+    color: #E5E7EB;
+}
+
+.footer-section p a {
+    color: #3882F6;
+}
