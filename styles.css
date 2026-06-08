@@ -2,8 +2,58 @@
 
 * {
     font-family: 'Roboto', sans-serif;
+    /* border: 2px red solid; */
 }
 
-header footer {
+header, footer {
     background-color: #1F2937;
+    padding: 8px 48px;
+}
+
+/* Layout styles for hero section */
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 0px 0px 12px 0px;
+    margin: 0;
+}
+
+.hero-logo {
+    margin-right: auto;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-image {
+    max-width: 50%;
+}
+
+/* Content styles for hero section */
+
+.hero-logo a {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+nav ul li {
+    color: #E5E7EB;
+}
+
+.hero-title {
+    font-size: 48px;
+    color: #F9FaF8;
+    font-weight: 900;
+}
+
+.hero-subtitle {
+    font-size: 18px;
+    color: #E5E7EB;
 }
