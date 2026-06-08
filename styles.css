@@ -1,0 +1,9 @@
+@import url('https://googleapis.com');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+header footer {
+    background-color: #1F2937;
+}
