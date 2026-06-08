@@ -57,3 +57,16 @@ nav ul li {
     font-size: 18px;
     color: #E5E7EB;
 }
+
+/* Layout styles for carousel */
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.carousel-item img {
+    max-width: 250px;
+    max-height: 250px;
+}
